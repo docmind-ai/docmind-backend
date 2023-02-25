@@ -1,0 +1,7 @@
+zappa = "*"
+flask = "*"
+python-dotenv = "*"
+pymysql = "*"
+Flask~=2.2.3
+PyMySQL~=1.0.2
+python-dotenv~=1.0.0
