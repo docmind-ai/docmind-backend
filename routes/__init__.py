@@ -4,7 +4,7 @@ routes = Blueprint('routes', __name__)
 bp = Blueprint('errors', __name__)
 
 from .user import *
-
+from .documentation import *
 
 @bp.app_errorhandler(404)
 def handle_404(err):
