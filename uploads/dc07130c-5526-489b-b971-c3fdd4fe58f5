@@ -1,0 +1,8 @@
+listUserStores(multiBuildings = false) {
+        return this.myHttpService.get(
+            this.AWSEndpoint + `stores?multiBuildings=${multiBuildings}`
+        )
+            .pipe(
+                catchError(MyHttpService.handleErrors)
+            );
+    }

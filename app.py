@@ -4,10 +4,9 @@ from flask import Flask, Response
 from routes import *
 import logging
 
+
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
-
-app = Flask(__name__)
 
 # Flask constructor takes the name of
 # current module (__name__) as argument.
